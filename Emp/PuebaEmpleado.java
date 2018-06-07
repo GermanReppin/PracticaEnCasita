@@ -1,4 +1,4 @@
-package Practica;
+package Emp;
 
 public class PuebaEmpleado {
 

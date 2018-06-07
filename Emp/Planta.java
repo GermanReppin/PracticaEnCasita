@@ -1,4 +1,4 @@
-package Practica;
+package Emp;
 import java.util.Scanner;
 
 public class Planta {
