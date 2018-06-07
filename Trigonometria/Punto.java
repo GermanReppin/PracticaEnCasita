@@ -7,13 +7,14 @@ public class Punto {
 	
 	
 	public Punto() {
-		
+	
 		this.x = 0;
 		this.y = 0;
 	}
 	
 	public Punto(float a,float b) {
 		
+		super();
 		this.x = a;
 		this.y = b;	
 	}
@@ -40,6 +41,7 @@ public class Punto {
 		System.out.println("X = " + x);
 		System.out.println("y = " +  y);
 	}
+	
 	public void sumarPuntos(Punto p2) {
 		
 		this.x += p2.getX();
