@@ -1,13 +1,9 @@
 package Emp;
-import java.util.Scanner;
 
 	public class Empleado {
 
-		
 		int numEmpleado;
 		String nomEmpleado;
-		Scanner aux = new Scanner(System.in);
-		
 		
 			public int getNumEmpleado() {
 				return numEmpleado;

@@ -23,15 +23,16 @@ public class Planta {
 		String nom;
 		
 		while (cont < num){
+			
 			Empleado empleado = new Empleado();
-			System.out.println("Escriba un nombre");
-				
+			
+				System.out.println("Escriba un nombre");
 				nom = aux.next();
 				empleado.setNomEmpleado(nom);
 				
-				System.out.println("Escriba un numero");
-				
 				int num2;
+				
+				System.out.println("Escriba un numero");
 				num2 = aux.nextInt();
 				empleado.setNumEmpleado(num2);
 				

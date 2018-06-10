@@ -20,7 +20,7 @@ public class Vector extends Punto {
 	
 	public void coordenadasVector() {
 		
-		System.out.println("X = " + x);
+		System.out.println("x = " + x);
 		System.out.println("y = " +  y);
 		System.out.println("z = " + z);
 	}
